@@ -40,13 +40,13 @@ git clone https://github.com/Kaklotar-Parth/Ecommerce
 
 2. Install Instructions
 
-Clone the repo.
-Run composer install
-Run php -r "file_exists('.env') || copy('.env.example', '.env');"
-Run php artisan key:generate --ansi
-Create a database named bizzmana_ecom (or you can change the name in .env) in your localhost
-Edit .env file
-Run php artisan migrate --seed
+- Clone the repo.
+- Run composer install
+- Run php -r "file_exists('.env') || copy('.env.example', '.env');"
+- Run php artisan key:generate --ansi
+- Create a database named bizzmana_ecom (or you can change the name in .env) in your localhost
+- Edit .env file
+- Run php artisan migrate --seed
 
 
 3. Configure environment
